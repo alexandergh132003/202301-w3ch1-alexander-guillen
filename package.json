@@ -6,8 +6,8 @@
     "prepare": "husky install",
     "prebuild:dev": "rimraf dist",
     "prebuild": "rimraf dist",
-    "build:dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build:dev": "parcel app/index.html",
+    "build": "parcel build app/index.html"
   },
   "keywords": [],
   "author": "",
