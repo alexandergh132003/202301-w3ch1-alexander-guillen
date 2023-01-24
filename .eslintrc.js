@@ -13,6 +13,8 @@ module.exports = {
           "error",
           "interface",
         ],
+
+        "@typescript-eslint/restrict-template-expressions": "off",
       },
     },
   ],
